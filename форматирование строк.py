@@ -15,7 +15,6 @@ print("Волшебники данных решили задачи за {} с !"
 
 print(f'Команды решили {score_1} и {score_2} задач.')
 
-# исход соревнования
 if score_1 > score_2 or score_1 == score_2 and team1_time < team2_time:
     challenge_result = 'Победа команды Мастера кода!'
 elif score_1 < score_2 or score_1 == score_2 and team1_time > team2_time:
